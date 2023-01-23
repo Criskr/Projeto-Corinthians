@@ -1,0 +1,274 @@
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgb(39, 39, 39);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(225,192,141);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(225,192,141);
+}
+
+body {
+    background-color: rgb(14, 14, 14);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*CABECALHO E HOME --------------------------------------------------------------------------------------------------*/
+
+.logo {
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    margin: 15px;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    background-image: linear-gradient(to right, rgb(29, 29, 29), #080808);
+    height: 18vh;
+    width: 100%;
+    border-bottom: 2px solid rgb(225,192,141);
+    z-index: 1;
+    top: 0px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    color: rgb(225,192,141);
+    list-style-type: none;
+    cursor: pointer;
+    padding-left: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+/*PAGINA PRINCIPAL-------------------------------------------------------------------------------------------------*/
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0px 50px 0px;
+}
+
+.fundadores {
+    max-width: 600px;
+    max-height: 600px;
+    width: auto;
+    height: auto;
+    border-radius: 3%;
+    border: solid 2px rgb(225,192,141);
+    margin: 55px;
+}
+
+.sobrefundadores {
+    margin-right: 55px;
+}
+
+h1 {
+    color: white;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.txtfundacao {
+    font-size: 18px;
+    color: white;
+}
+
+.txtfundacao1 {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+/*ANO 2000 -----------------------------------------------------------------------------------------------------------*/
+
+.pag2000 {
+    border-top: 1px solid rgb(225,192,141);
+    background-color: rgb(20, 20, 20);
+    border-bottom: solid 1px rgb(225,192,141);
+}
+
+.mundial2000 {
+    max-width: 600px;
+    max-height: 600px;
+    width: auto;
+    height: auto;
+    border-radius: 3%;
+    border: solid 2px rgb(225,192,141);
+}
+
+.campeao2000 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.campeao2000txt {
+    text-align: center;
+}
+
+.txtmundial2000 {
+    color: white;
+    font-size: 18px;
+    margin: 50px;
+}
+
+.elenco00 {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.figurinhas img {
+    max-width: 250px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+}
+
+.figurinhas00, .figurinhas002 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+/*TIME 2012--------------------------------------------------------------------------------------------------------------*/
+
+.pag2012 {
+    background-color: rgb(14, 14, 14);
+}
+
+.trofeulibertadores, .time12 {
+    max-width: 600px;
+    max-height: 600px;
+    width: auto;
+    height: auto;
+    border-radius: 3%;
+    border: solid 2px rgb(225,192,141);
+}
+
+.txtlibertadores, .txtmundial {
+    text-align: center;
+}
+
+.ano12txt, .mundial2012txt {
+    color: white;
+    font-size: 18px;
+    margin: 50px;
+}
+
+.img2012, .time2012 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.escfinal {
+    text-align: center;
+}
+
+.escfinaltxt {
+    font-size: 15px;
+}
+
+.figurinhas2012 img {
+    max-width: 250px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+}
+
+.figurinhas12, .figurinhas121 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+
+/*RODAPE-----------------------------------------------------------------------------------------------------------*/
+
+footer {
+    background-color: rgb(20, 20, 20);
+    color: rgb(160, 160, 160);    
+    text-align: center;
+    line-height: 100px;
+    border-top: solid 1px rgb(225,192,141);
+    font-size: 15px;
+}
+
+footer a {
+    color: rgb(225,192,141);
+}
+
+/*LAYOUT MOBILE----------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+
+    .fundadores {
+        display: none;
+    }
+
+    .sobrefundadores {
+        margin: 40px;
+        text-align: center;
+    }
+
+    .mundial2000 {
+        max-width: 400px;
+        max-height: 400px;
+        width: auto;
+        height: auto;
+        border-radius: 3%;
+        border: solid 2px rgb(225,192,141);
+    }
+
+    .figurinhas img {
+        max-width: 100px;
+        max-height: 100px;
+        width: auto;
+        height: auto;
+    }
+
+    .trofeulibertadores, .time12 {
+        max-width: 400px;
+        max-height: 400px;
+        width: auto;
+        height: auto;
+        border-radius: 3%;
+        border: solid 2px rgb(225,192,141);
+    }
+    
+    .figurinhas2012 img {
+        max-width: 100px;
+        max-height: 100px;
+        width: auto;
+        height: auto;
+    }
+    
+}
+
